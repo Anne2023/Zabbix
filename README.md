@@ -1,6 +1,6 @@
 # Repositório de Demonstração do Zabbix
 
-![Zabbix Logo](https://www.zabbix.com/assets/img/logos/zabbix_logo.png) <!-- Imagem do Zabbix -->
+![zabbix_logo svg](https://github.com/Anne2023/Zabbix/assets/123522722/bbbe5ba5-d3e0-444a-a64e-0df6ed52b258) <!-- Imagem do Zabbix -->
 
 Este repositório é uma demonstração prática do Zabbix, uma ferramenta de monitoramento open-source que permite acompanhar métricas de servidores, redes, aplicações e muito mais. A configuração utiliza Docker Compose para executar o Zabbix Server e o Grafana, com um banco de dados MariaDB.
 
