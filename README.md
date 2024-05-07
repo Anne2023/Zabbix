@@ -65,9 +65,7 @@ Esta seção contém uma demonstração prática para configurar o Zabbix Server
 2. Para criar gráficos personalizados, vá até "Monitoring" > "Graphs".
 3. Adicione gráficos e dashboards para uma visão personalizada do sistema.
 
-### CONCLUSÃO
-
-# Conclusão do Projeto Zabbix
+## Conclusão do Projeto Zabbix
 
 Neste repositório, mostramos como configurar o Zabbix Server, adicionar um host para monitoramento e usar o Grafana para visualizar dados. Esta configuração pode ser ampliada para atender a diversas necessidades de monitoramento de sistemas e redes.
 
@@ -80,7 +78,6 @@ Para mais informações e configurações avançadas, visite a [documentação o
 
 ## requirements.txt
 ```markdown
-# Requisitos para rodar a demonstração do Zabbix
 Docker==20.10.24
 Docker-Compose==1.29.2
 
