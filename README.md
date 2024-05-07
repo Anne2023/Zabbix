@@ -1,5 +1,5 @@
 ## Zabbix
-### [README.md](http://readme.md/)
+### [README](http://readme.md/)
 
 ```markdown
 # Repositório de Demonstração do Zabbix
