@@ -32,7 +32,7 @@ Este repositório é uma demonstração prática do Zabbix, uma ferramenta de mo
 - Habilidades básicas de administração de sistemas
 
 ## Como Usar este Repositório
-Para iniciar a demonstração do Zabbix, siga as instruções detalhadas no arquivo [Demonstração Prática do Zabbix](./Demonstração Prática do Zabbix. Este arquivo contém uma explicação passo a passo para configurar o Zabbix, o MariaDB e o Grafana usando Docker Compose.
+Para iniciar a demonstração do Zabbix, siga as instruções detalhadas no arquivo demonstração Prática do Zabbix. Este arquivo contém uma explicação passo a passo para configurar o Zabbix, o MariaDB e o Grafana usando Docker Compose.
 
 ## Contribuindo
 Contribuições são bem-vindas! Por favor, abra um issue ou faça um fork deste repositório para propor melhorias.
