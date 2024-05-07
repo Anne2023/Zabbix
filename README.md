@@ -29,8 +29,6 @@ Para iniciar a demonstração do Zabbix, siga as instruções detalhadas no arqu
 ## Contribuindo
 Contribuições são bem-vindas! Por favor, abra um issue ou faça um fork deste repositório para propor melhorias.
 
-### DEMONSTRAÇÃO.md
-```markdown
 # Demonstração Prática do Zabbix
 
 Esta seção contém uma demonstração prática para configurar o Zabbix Server, um banco de dados MariaDB e o Grafana para visualização. As etapas a seguir guiarão você pela configuração básica usando Docker Compose.
@@ -43,28 +41,29 @@ Esta seção contém uma demonstração prática para configurar o Zabbix Server
    docker-compose up -d
 
 ## 2-Configurar o Zabbix Agent
-Baixe o Zabbix Agent apropriado para seu sistema operacional no site oficial do Zabbix.
-Instale o Zabbix Agent no servidor/host que deseja monitorar.
-Edite o arquivo de configuração zabbix_agentd.conf para incluir a linha:
+1. Baixe o Zabbix Agent apropriado para seu sistema operacional no site oficial do Zabbix.
+2. Instale o Zabbix Agent no servidor/host que deseja monitorar.
+3. Edite o arquivo de configuração zabbix_agentd.conf para incluir a linha:
+ ```bash
 Server=127.0.0.1
 
 ## 3- Adicionar um Host ao Zabbix Server
-Acesse a interface web do Zabbix Server (o endereço será indicado pela saída do comando Docker Compose).
-Faça login com as credenciais padrão (admin/zabbix).
-Navegue até "Configuration" > "Hosts".
-Clique em "Create Host".
-Preencha as informações básicas para adicionar o novo host.
-Clique em "Add".
+1. Acesse a interface web do Zabbix Server (o endereço será indicado pela saída do comando Docker Compose).
+2. Faça login com as credenciais padrão (admin/zabbix).
+3. Navegue até "Configuration" > "Hosts".
+4. Clique em "Create Host".
+5. Preencha as informações básicas para adicionar o novo host.
+6. Clique em "Add".
 
 ## 4- Configurar Itens e Triggers para Monitoramento
-Após adicionar um host, navegue até "Configuration" > "Hosts" e selecione o host criado.
-Clique em "Items" para adicionar itens de monitoramento, como uso de CPU, espaço em disco, etc.
-Configure triggers para alertas (por exemplo, uso de CPU acima de 90%).
+1. Após adicionar um host, navegue até "Configuration" > "Hosts" e selecione o host criado.
+2. Clique em "Items" para adicionar itens de monitoramento, como uso de CPU, espaço em disco, etc.
+3. Configure triggers para alertas (por exemplo, uso de CPU acima de 90%).
 
 ## 5-Visualizar Dados e Configurar Gráficos
-Para visualizar dados em tempo real, vá até "Monitoring" > "Latest Data".
-Para criar gráficos personalizados, vá até "Monitoring" > "Graphs".
-Adicione gráficos e dashboards para uma visão personalizada do sistema.
+1. Para visualizar dados em tempo real, vá até "Monitoring" > "Latest Data".
+2. Para criar gráficos personalizados, vá até "Monitoring" > "Graphs".
+3. Adicione gráficos e dashboards para uma visão personalizada do sistema.
 
 ### CONCLUSÃO.md
 ```markdown
