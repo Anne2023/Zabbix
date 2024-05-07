@@ -1,19 +1,20 @@
 # Repositório de Demonstração do Zabbix
 
 <div style="text-align: center;">
-  <img src="https://github.com/Anne2023/Zabbix/assets/123522722/bbbe5ba5-d3e0-444a-a64e-0df6ed52b258" alt="zabbix_logo svg" width="200px">
-</div> <!-- Imagem do Zabbix -->
+  <img src="https://github.com/Anne2023/Zabbix/assets/123522722/bbbe5ba5-d3e0-444a-a64e-0df6ed52b258" alt="Zabbix Logo" width="200px">
+</div>
 
 Este repositório é uma demonstração prática do Zabbix, uma ferramenta de monitoramento open-source que permite acompanhar métricas de servidores, redes, aplicações e muito mais. A configuração utiliza Docker Compose para executar o Zabbix Server e o Grafana, com um banco de dados MariaDB.
 
-<div style="text-align: center; display: inline-block;">
-  <img src="https://github.com/Anne2023/Zabbix/assets/123522722/9012f4b6-2ce8-45c8-9a9e-549243a12ee3" alt="MariaDB Logo" width="250px">
-</div>
+<div style="text-align: center;">
+  <div style="display: inline-block;">
+    <img src="https://github.com/Anne2023/Zabbix/assets/123522722/9012f4b6-2ce8-45c8-9a9e-549243a12ee3" alt="MariaDB Logo" width="250px">
+  </div>
 
-<div style="text-align: center; display: inline-block; margin-left: 20px;">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Grafana_icon.svg" alt="Grafana Logo" width="250px">
+  <div style="display: inline-block; margin-left: 20px;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Grafana_icon.svg" alt="Grafana Logo" width="250px">
+  </div>
 </div>
-
 
 ## Requisitos para Rodar
 ### Requisitos Funcionais
