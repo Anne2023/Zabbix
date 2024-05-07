@@ -29,13 +29,6 @@ Para iniciar a demonstração do Zabbix, siga as instruções detalhadas no arqu
 ## Contribuindo
 Contribuições são bem-vindas! Por favor, abra um issue ou faça um fork deste repositório para propor melhorias.
 
-## requirements.txt
-```bash
-# Requisitos para rodar a demonstração do Zabbix
-Docker==20.10.24
-Docker-Compose==1.29.2
-
-
 ### DEMONSTRAÇÃO.md
 ```markdown
 # Demonstração Prática do Zabbix
