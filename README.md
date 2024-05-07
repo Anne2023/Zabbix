@@ -1,10 +1,10 @@
 # Repositório de Demonstração do Zabbix
 
-![Zabbix Logo](https://upload.wikimedia.org/wikipedia/commons/5/52/Zabbix_logo_small.png) <!-- Imagem do Zabbix -->
+![Zabbix Logo](https://www.zabbix.com/assets/img/logos/zabbix_logo.png) <!-- Imagem do Zabbix -->
 
 Este repositório é uma demonstração prática do Zabbix, uma ferramenta de monitoramento open-source que permite acompanhar métricas de servidores, redes, aplicações e muito mais. A configuração utiliza Docker Compose para executar o Zabbix Server e o Grafana, com um banco de dados MariaDB.
 
-![MariaDB Logo](https://upload.wikimedia.org/wikipedia/commons/b/bb/Mariadb-seal-bird-symbol.png) <!-- Imagem do MariaDB -->
+![MariaDB Logo](https://mariadb.com/wp-content/uploads/2019/11/mariadb-logo-vert-blue.png) <!-- Imagem do MariaDB -->
 
 ![Grafana Logo](https://upload.wikimedia.org/wikipedia/commons/3/3b/Grafana_icon.svg) <!-- Imagem do Grafana -->
 
@@ -65,8 +65,8 @@ Esta seção contém uma demonstração prática para configurar o Zabbix Server
 2. Para criar gráficos personalizados, vá até "Monitoring" > "Graphs".
 3. Adicione gráficos e dashboards para uma visão personalizada do sistema.
 
-### CONCLUSÃO.md
-```markdown
+### CONCLUSÃO
+
 # Conclusão do Projeto Zabbix
 
 Neste repositório, mostramos como configurar o Zabbix Server, adicionar um host para monitoramento e usar o Grafana para visualizar dados. Esta configuração pode ser ampliada para atender a diversas necessidades de monitoramento de sistemas e redes.
@@ -79,6 +79,7 @@ Para mais informações e configurações avançadas, visite a [documentação o
 - Integrar o Zabbix com outras ferramentas, como Grafana e GLPI.
 
 ## requirements.txt
+```markdown
 # Requisitos para rodar a demonstração do Zabbix
 Docker==20.10.24
 Docker-Compose==1.29.2
