@@ -29,7 +29,7 @@ Para iniciar a demonstração do Zabbix, siga as instruções detalhadas no arqu
 ## Contribuindo
 Contribuições são bem-vindas! Por favor, abra um issue ou faça um fork deste repositório para propor melhorias.
 
-# Demonstração Prática do Zabbix
+## Demonstração Prática do Zabbix
 
 Esta seção contém uma demonstração prática para configurar o Zabbix Server, um banco de dados MariaDB e o Grafana para visualização. As etapas a seguir guiarão você pela configuração básica usando Docker Compose.
 
@@ -40,14 +40,14 @@ Esta seção contém uma demonstração prática para configurar o Zabbix Server
    ```bash
    docker-compose up -d
 
-## 2-Configurar o Zabbix Agent
+## Etapa 2: Configurar o Zabbix Agent
 1. Baixe o Zabbix Agent apropriado para seu sistema operacional no site oficial do Zabbix.
 2. Instale o Zabbix Agent no servidor/host que deseja monitorar.
 3. Edite o arquivo de configuração zabbix_agentd.conf para incluir a linha:
- ```bash
-Server=127.0.0.1
+    ```bash
+   Server=127.0.0.1
 
-## 3- Adicionar um Host ao Zabbix Server
+## Etapa 3: Adicionar um Host ao Zabbix Server
 1. Acesse a interface web do Zabbix Server (o endereço será indicado pela saída do comando Docker Compose).
 2. Faça login com as credenciais padrão (admin/zabbix).
 3. Navegue até "Configuration" > "Hosts".
@@ -55,12 +55,12 @@ Server=127.0.0.1
 5. Preencha as informações básicas para adicionar o novo host.
 6. Clique em "Add".
 
-## 4- Configurar Itens e Triggers para Monitoramento
+## Etapa 4: Configurar Itens e Triggers para Monitoramento
 1. Após adicionar um host, navegue até "Configuration" > "Hosts" e selecione o host criado.
 2. Clique em "Items" para adicionar itens de monitoramento, como uso de CPU, espaço em disco, etc.
 3. Configure triggers para alertas (por exemplo, uso de CPU acima de 90%).
 
-## 5-Visualizar Dados e Configurar Gráficos
+## Etapa 5: Visualizar Dados e Configurar Gráficos
 1. Para visualizar dados em tempo real, vá até "Monitoring" > "Latest Data".
 2. Para criar gráficos personalizados, vá até "Monitoring" > "Graphs".
 3. Adicione gráficos e dashboards para uma visão personalizada do sistema.
