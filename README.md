@@ -33,9 +33,6 @@ O agente Zabbix é implantado em um alvo de monitoramento para monitorar ativame
 ## Como Usar este Repositório
 Para iniciar a demonstração do Zabbix, siga as instruções detalhadas no arquivo demonstração Prática do Zabbix. Este arquivo contém uma explicação passo a passo para configurar o Zabbix, o MariaDB e o Grafana usando Docker Compose.
 
-## Contribuindo
-Contribuições são bem-vindas! Por favor, abra um issue ou faça um fork deste repositório para propor melhorias.
-
 ## Demonstração Prática do Zabbix
 
 Esta seção contém uma demonstração prática para configurar o Zabbix Server, um banco de dados MariaDB e o Grafana para visualização. As etapas a seguir guiarão você pela configuração básica usando Docker Compose.
@@ -82,6 +79,9 @@ Para mais informações e configurações avançadas, visite a [documentação o
 - Aprender sobre templates no Zabbix para monitoramento mais eficiente.
 - Configurar notificações e alertas avançados.
 - Integrar o Zabbix com outras ferramentas, como Grafana e GLPI.
+
+## Contribuindo
+Contribuições são bem-vindas! Por favor, abra um issue ou faça um fork deste repositório para propor melhorias.
 
 ## requirements.txt
 ```markdown
