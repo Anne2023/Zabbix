@@ -1,20 +1,19 @@
-# Repositório de Demonstração do Zabbix
+# Zabbix
 
 <div style="text-align: center;">
   <img src="https://github.com/Anne2023/Zabbix/assets/123522722/bbbe5ba5-d3e0-444a-a64e-0df6ed52b258" alt="Zabbix Logo" width="200px">
 </div>
 
-Este repositório é uma demonstração prática do Zabbix, uma ferramenta de monitoramento open-source que permite acompanhar métricas de servidores, redes, aplicações e muito mais. A configuração utiliza Docker Compose para executar o Zabbix Server e o Grafana, com um banco de dados MariaDB.
+## O que é Zabbix?
 
-<div style="text-align: center;">
-  <div style="display: inline-block;">
-    <img src="https://github.com/Anne2023/Zabbix/assets/123522722/9012f4b6-2ce8-45c8-9a9e-549243a12ee3" alt="MariaDB Logo" width="250px">
-  </div>
+O Zabbix é uma solução de monitoramento distribuído de código aberto de classe empresarial.
 
-  <div style="display: inline-block; margin-left: 20px;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Grafana_icon.svg" alt="Grafana Logo" width="250px">
-  </div>
-</div>
+Zabbix é um software que monitora inúmeros parâmetros de uma rede e a saúde e integridade dos servidores. O Zabbix usa um mecanismo de notificação flexível que permite aos usuários configurar alertas baseados em e-mail para praticamente qualquer evento. Isso permite uma reação rápida aos problemas do servidor. O Zabbix oferece excelentes recursos de relatórios e visualização de dados com base nos dados armazenados. Isso torna o Zabbix ideal para planejamento de capacidade.
+
+Para obter mais informações e downloads relacionados para componentes do Zabbix, visite https://hub.docker.com/u/zabbix/ e https://zabbix.com
+
+## O que é o agente Zabbix?
+O agente Zabbix é implantado em um alvo de monitoramento para monitorar ativamente recursos e aplicativos locais (discos rígidos, memória, estatísticas do processador, etc).
 
 ## Requisitos para Rodar
 ### Requisitos Funcionais
