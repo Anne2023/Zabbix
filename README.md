@@ -1,41 +1,45 @@
-## Zabbix
-### [README](http://readme.md/)
-
-```markdown
 # Repositório de Demonstração do Zabbix
 
-Este repositório é uma demonstração prática do Zabbix, uma ferramenta de monitoramento open-source que permite acompanhar métricas de servidores, redes, aplicações e muito mais.
+<div style="text-align: center;">
+  <img src="https://github.com/Anne2023/Zabbix/assets/123522722/bbbe5ba5-d3e0-444a-a64e-0df6ed52b258" alt="Zabbix Logo" width="200px">
+</div>
+
+Este repositório é uma demonstração prática do Zabbix, uma ferramenta de monitoramento open-source que permite acompanhar métricas de servidores, redes, aplicações e muito mais. A configuração utiliza Docker Compose para executar o Zabbix Server e o Grafana, com um banco de dados MariaDB.
+
+<div style="text-align: center;">
+  <div style="display: inline-block;">
+    <img src="https://github.com/Anne2023/Zabbix/assets/123522722/9012f4b6-2ce8-45c8-9a9e-549243a12ee3" alt="MariaDB Logo" width="250px">
+  </div>
+
+  <div style="display: inline-block; margin-left: 20px;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Grafana_icon.svg" alt="Grafana Logo" width="250px">
+  </div>
+</div>
 
 ## Requisitos para Rodar
-- **Requisitos Funcionais**
-  - Zabbix Server 6.0 ou superior
-  - Zabbix Agent 6.0 ou superior
-  - Sistema Operacional Linux (Ubuntu/Debian)
-  - Docker 20.10 ou superior
-  - Docker Compose 1.29 ou superior
+### Requisitos Funcionais
+- Zabbix Server 6.0 ou superior
+- Zabbix Agent 6.0 ou superior
+- MariaDB para o banco de dados
+- Grafana para visualização de dados
+- Docker 20.10 ou superior
+- Docker Compose 1.29 ou superior
 
-- **Requisitos Não-Funcionais**
-  - Compreensão básica de redes e servidores
-  - Familiaridade com ferramentas de monitoramento
-  - Conhecimento em Docker e Docker Compose
-  - Habilidades básicas de administração de sistemas
+### Requisitos Não-Funcionais
+- Compreensão básica de redes e servidores
+- Familiaridade com ferramentas de monitoramento
+- Conhecimento em Docker e Docker Compose
+- Habilidades básicas de administração de sistemas
 
 ## Como Usar este Repositório
-Para iniciar a demonstração do Zabbix, siga as instruções detalhadas no arquivo [DEMONSTRAÇÃO.md](./DEMONSTRAÇÃO.md).
+Para iniciar a demonstração do Zabbix, siga as instruções detalhadas no arquivo demonstração Prática do Zabbix. Este arquivo contém uma explicação passo a passo para configurar o Zabbix, o MariaDB e o Grafana usando Docker Compose.
 
 ## Contribuindo
 Contribuições são bem-vindas! Por favor, abra um issue ou faça um fork deste repositório para propor melhorias.
 
-```
+## Demonstração Prática do Zabbix
 
----
-
-### [DEMONSTRAÇÃO.md](http://xn--demonstrao-lva1c.md/)
-
-```markdown
-# Demonstração Prática do Zabbix
-
-Esta seção contém uma demonstração prática para configurar um servidor Zabbix e monitorar um agente. As etapas a seguir guiarão você pela configuração básica usando Docker.
+Esta seção contém uma demonstração prática para configurar o Zabbix Server, um banco de dados MariaDB e o Grafana para visualização. As etapas a seguir guiarão você pela configuração básica usando Docker Compose.
 
 ## Etapa 1: Configurar o Zabbix Server
 1. Clone este repositório para sua máquina local.
@@ -44,22 +48,14 @@ Esta seção contém uma demonstração prática para configurar um servidor Zab
    ```bash
    docker-compose up -d
 
-```
-
 ## Etapa 2: Configurar o Zabbix Agent
-
-1. Baixe o Zabbix Agent apropriado para o seu sistema operacional no [site oficial](https://www.zabbix.com/download).
+1. Baixe o Zabbix Agent apropriado para seu sistema operacional no site oficial do Zabbix.
 2. Instale o Zabbix Agent no servidor/host que deseja monitorar.
-3. Edite o arquivo de configuração `zabbix_agentd.conf` para incluir a linha:
-    
+3. Edite o arquivo de configuração zabbix_agentd.conf para incluir a linha:
     ```bash
-    Server=127.0.0.1
-    
-    ```
-    
+   Server=127.0.0.1
 
 ## Etapa 3: Adicionar um Host ao Zabbix Server
-
 1. Acesse a interface web do Zabbix Server (o endereço será indicado pela saída do comando Docker Compose).
 2. Faça login com as credenciais padrão (admin/zabbix).
 3. Navegue até "Configuration" > "Hosts".
@@ -68,43 +64,28 @@ Esta seção contém uma demonstração prática para configurar um servidor Zab
 6. Clique em "Add".
 
 ## Etapa 4: Configurar Itens e Triggers para Monitoramento
-
 1. Após adicionar um host, navegue até "Configuration" > "Hosts" e selecione o host criado.
-2. Clique em "Items" e adicione itens de monitoramento (como uso de CPU, espaço em disco, etc.).
+2. Clique em "Items" para adicionar itens de monitoramento, como uso de CPU, espaço em disco, etc.
 3. Configure triggers para alertas (por exemplo, uso de CPU acima de 90%).
 
 ## Etapa 5: Visualizar Dados e Configurar Gráficos
-
 1. Para visualizar dados em tempo real, vá até "Monitoring" > "Latest Data".
 2. Para criar gráficos personalizados, vá até "Monitoring" > "Graphs".
 3. Adicione gráficos e dashboards para uma visão personalizada do sistema.
 
-```
+## Conclusão do Projeto Zabbix
 
----
+Neste repositório, mostramos como configurar o Zabbix Server, adicionar um host para monitoramento e usar o Grafana para visualizar dados. Esta configuração pode ser ampliada para atender a diversas necessidades de monitoramento de sistemas e redes.
 
-### CONCLUSÃO.md
-```markdown
-# Conclusão do Projeto Zabbix
-
-Neste repositório, demonstramos uma configuração básica do Zabbix Server e a adição de um host para monitoramento. Esta configuração pode ser estendida para atender a diversas necessidades de monitoramento de sistemas e redes.
-
-Para mais informações e configurações avançadas, visite a [documentação oficial do Zabbix](<https://www.zabbix.com/documentation/current/manual/introduction>). Contribuições para este repositório são bem-vindas para ampliar a demonstração e incluir mais exemplos práticos.
+Para mais informações e configurações avançadas, visite a [documentação oficial do Zabbix](https://www.zabbix.com/documentation/current/manual/introduction). Contribuições para este repositório são bem-vindas para ampliar a demonstração e incluir mais exemplos práticos.
 
 ## Próximos Passos
 - Aprender sobre templates no Zabbix para monitoramento mais eficiente.
 - Configurar notificações e alertas avançados.
-- Integrar o Zabbix com outras ferramentas, como Grafana e o GLPI.
+- Integrar o Zabbix com outras ferramentas, como Grafana e GLPI.
 
-```
-
----
-
-### requirements.txt
-
-```bash
-# Requisitos para rodar a demonstração do Zabbix
+## requirements.txt
+```markdown
 Docker==20.10.24
 Docker-Compose==1.29.2
 
-```
